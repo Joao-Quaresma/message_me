@@ -1,24 +1,20 @@
-# README
+```
+Ruby        2.5.1
+Bundler     1.17.1
+Rails       5.2.2
+Mysql       Ver 14.14 Distrib 5.6.35
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+```
+This app allows users to:
+- Register / login
+- Chat with other users
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+What was used:
+- Created users login/register without Devise
+- bcrypt used for secure passwords
+- gem 'semantic-ui-sass' for Front End
+- ActionCable for real time messages
+```
